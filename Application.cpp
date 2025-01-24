@@ -1,4 +1,5 @@
 #include "Application.h"
+#include "Input.h"
 
 Application::Application()
 	:mHwnd(nullptr)
@@ -17,6 +18,8 @@ void Application::Initialize(HWND hWnd)
 {
 	mHwnd = hWnd;
 	mHdc = GetDC(hWnd);
+
+	Input::Initialize();
 }
 
 void Application::Run()
@@ -28,12 +31,13 @@ void Application::Run()
 
 void Application::Update()
 {
-
+	Input::Update();
+	mPlayer.Update();
 }
 
 void Application::LateUpdate()
 {
-	mPlayer.Update();
+
 }
 
 void Application::Render()
