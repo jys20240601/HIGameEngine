@@ -1,9 +1,11 @@
 ﻿#include "framework.h"
 #include "YSGE.h"
+#include "Application.h"
 
 #define MAX_LOADSTRING 100
 
 HINSTANCE hInst;
+Application application;
 
 ATOM                MyRegisterClass(HINSTANCE hInstance);
 BOOL                InitInstance(HINSTANCE, int);
@@ -33,7 +35,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance
         }
         else
         {
-
+            application.Run();
         }
     }
 
@@ -67,6 +69,8 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
 
    HWND hWnd = CreateWindowW(L"key", L"Hello", WS_OVERLAPPEDWINDOW,
       CW_USEDEFAULT, 0, CW_USEDEFAULT, 0, nullptr, nullptr, hInstance, nullptr);
+
+   application.Initialize(hWnd);
 
    if (!hWnd)
    {
