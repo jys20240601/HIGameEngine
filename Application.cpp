@@ -1,5 +1,6 @@
 #include "Application.h"
 #include "Input.h"
+#include "TimeManager.h"
 
 Application::Application()
 	:mHwnd(nullptr)
@@ -20,6 +21,7 @@ void Application::Initialize(HWND hWnd)
 	mHdc = GetDC(hWnd);
 
 	Input::Initialize();
+	TimeManager::Initialize();
 }
 
 void Application::Run()
@@ -32,6 +34,8 @@ void Application::Run()
 void Application::Update()
 {
 	Input::Update();
+	TimeManager::Update();
+
 	mPlayer.Update();
 }
 

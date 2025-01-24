@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\YSGE\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{818AD774-94F6-4C0A-AD12-811E328519B1}|YSGE.vcxproj|C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\YSGE\\YSGE.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{818AD774-94F6-4C0A-AD12-811E328519B1}|YSGE.vcxproj|solutionrelative:YSGE.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{818AD774-94F6-4C0A-AD12-811E328519B1}|YSGE.vcxproj|C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\YSGE\\TimeManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{818AD774-94F6-4C0A-AD12-811E328519B1}|YSGE.vcxproj|solutionrelative:TimeManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{818AD774-94F6-4C0A-AD12-811E328519B1}|YSGE.vcxproj|C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\YSGE\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{818AD774-94F6-4C0A-AD12-811E328519B1}|YSGE.vcxproj|solutionrelative:GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{818AD774-94F6-4C0A-AD12-811E328519B1}|YSGE.vcxproj|C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\YSGE\\Application.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{818AD774-94F6-4C0A-AD12-811E328519B1}|YSGE.vcxproj|solutionrelative:Application.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{818AD774-94F6-4C0A-AD12-811E328519B1}|YSGE.vcxproj|C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\YSGE\\Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{818AD774-94F6-4C0A-AD12-811E328519B1}|YSGE.vcxproj|solutionrelative:Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{818AD774-94F6-4C0A-AD12-811E328519B1}|YSGE.vcxproj|C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\YSGE\\TimeManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{818AD774-94F6-4C0A-AD12-811E328519B1}|YSGE.vcxproj|solutionrelative:TimeManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{818AD774-94F6-4C0A-AD12-811E328519B1}|YSGE.vcxproj|C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\YSGE\\Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{818AD774-94F6-4C0A-AD12-811E328519B1}|YSGE.vcxproj|solutionrelative:Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{818AD774-94F6-4C0A-AD12-811E328519B1}|YSGE.vcxproj|C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\YSGE\\YSGE.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{818AD774-94F6-4C0A-AD12-811E328519B1}|YSGE.vcxproj|solutionrelative:YSGE.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{818AD774-94F6-4C0A-AD12-811E328519B1}|YSGE.vcxproj|C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\YSGE\\Application.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{818AD774-94F6-4C0A-AD12-811E328519B1}|YSGE.vcxproj|solutionrelative:Application.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{818AD774-94F6-4C0A-AD12-811E328519B1}|YSGE.vcxproj|C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\YSGE\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -54,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -63,45 +71,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "TimeManager.cpp",
+              "DocumentMoniker": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\YSGE\\TimeManager.cpp",
+              "RelativeDocumentMoniker": "TimeManager.cpp",
+              "ToolTip": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\YSGE\\TimeManager.cpp",
+              "RelativeToolTip": "TimeManager.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-24T15:43:05.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TimeManager.h",
+              "DocumentMoniker": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\YSGE\\TimeManager.h",
+              "RelativeDocumentMoniker": "TimeManager.h",
+              "ToolTip": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\YSGE\\TimeManager.h",
+              "RelativeToolTip": "TimeManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-24T15:40:08.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Input.cpp",
               "DocumentMoniker": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\YSGE\\Input.cpp",
               "RelativeDocumentMoniker": "Input.cpp",
               "ToolTip": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\YSGE\\Input.cpp",
               "RelativeToolTip": "Input.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-24T15:10:16.844Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Input.h",
               "DocumentMoniker": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\YSGE\\Input.h",
               "RelativeDocumentMoniker": "Input.h",
               "ToolTip": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\YSGE\\Input.h",
               "RelativeToolTip": "Input.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-01-24T14:59:21.892Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "GameObject.cpp",
               "DocumentMoniker": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\YSGE\\GameObject.cpp",
               "RelativeDocumentMoniker": "GameObject.cpp",
               "ToolTip": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\YSGE\\GameObject.cpp",
               "RelativeToolTip": "GameObject.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-24T14:55:21.249Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "GameObject.h",
               "DocumentMoniker": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\YSGE\\GameObject.h",
               "RelativeDocumentMoniker": "GameObject.h",
@@ -109,12 +143,11 @@
               "RelativeToolTip": "GameObject.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-24T14:54:57.785Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-24T14:54:57.785Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "YSGE.h",
               "DocumentMoniker": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\YSGE\\YSGE.h",
               "RelativeDocumentMoniker": "YSGE.h",
@@ -126,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Resource.h",
               "DocumentMoniker": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\YSGE\\Resource.h",
               "RelativeDocumentMoniker": "Resource.h",
@@ -138,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "framework.h",
               "DocumentMoniker": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\YSGE\\framework.h",
               "RelativeDocumentMoniker": "framework.h",
@@ -150,20 +183,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Application.cpp",
               "DocumentMoniker": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\YSGE\\Application.cpp",
               "RelativeDocumentMoniker": "Application.cpp",
               "ToolTip": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\YSGE\\Application.cpp",
               "RelativeToolTip": "Application.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-24T14:51:07.745Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Application.h",
               "DocumentMoniker": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\YSGE\\Application.h",
               "RelativeDocumentMoniker": "Application.h",
@@ -175,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "CommonInclude.h",
               "DocumentMoniker": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\YSGE\\CommonInclude.h",
               "RelativeDocumentMoniker": "CommonInclude.h",
@@ -183,18 +216,17 @@
               "RelativeToolTip": "CommonInclude.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-24T14:50:06.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-24T14:50:06.505Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "YSGE.cpp",
               "DocumentMoniker": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\YSGE\\YSGE.cpp",
               "RelativeDocumentMoniker": "YSGE.cpp",
               "ToolTip": "C:\\Users\\jys20\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\cpp\\YSGE\\YSGE.cpp",
               "RelativeToolTip": "YSGE.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-24T14:43:15.997Z",
               "EditorCaption": ""

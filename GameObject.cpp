@@ -1,37 +1,38 @@
 #include "GameObject.h"
 #include "Input.h"
+#include "TimeManager.h"
 
 GameObject::GameObject()
+    : mX(0.0f), mY(0.0f)
 {
-
 }
 
 GameObject::~GameObject()
 {
-
 }
 
 void GameObject::Update()
 {
-	if (Input::GetKey(eKeyCode::Left))
-	{
-		mX -= 0.01f;
-	}
+    // 키 입력 처리
+    if (Input::GetKey(eKeyCode::Left))
+    {
+        mX -= 100.0f * TimeManager::DeltaTime();
+    }
 
-	if (Input::GetKey(eKeyCode::Right))
-	{
-		mX += 0.01f;
-	}
+    if (Input::GetKey(eKeyCode::Right))
+    {
+        mX += 100.0f * TimeManager::DeltaTime();
+    }
 
-	if (Input::GetKey(eKeyCode::Up))
-	{
-		mY -= 0.01f;
-	}
+    if (Input::GetKey(eKeyCode::Up))
+    {
+        mY -= 100.0f * TimeManager::DeltaTime();
+    }
 
-	if (Input::GetKey(eKeyCode::Down))
-	{
-		mY += 0.01f;
-	}
+    if (Input::GetKey(eKeyCode::Down))
+    {
+        mY += 100.0f * TimeManager::DeltaTime();
+    }
 }
 
 void GameObject::LateUpdate()
