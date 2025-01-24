@@ -28,5 +28,4 @@ private:
 	UINT mWidth;
 	UINT mHeight;
 
-	GameObject mPlayer;
 };

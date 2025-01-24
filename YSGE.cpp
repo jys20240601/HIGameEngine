@@ -1,11 +1,15 @@
 ﻿#include "framework.h"
 #include "YSGE.h"
+#include "CommonInclude.h"
 #include "Application.h"
+#include "LoadScenes.h"
 
 #define MAX_LOADSTRING 100
 
 HINSTANCE hInst;
 Application application;
+ULONG_PTR gpToken;
+Gdiplus::GdiplusStartupInput gpsi;
 
 ATOM                MyRegisterClass(HINSTANCE hInstance);
 BOOL                InitInstance(HINSTANCE, int);
@@ -38,6 +42,8 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance
             application.Run();
         }
     }
+
+	Gdiplus::GdiplusShutdown(gpToken);
 
     return (int) msg.wParam;
 }
@@ -82,6 +88,10 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
 
    ShowWindow(hWnd, nCmdShow);
    UpdateWindow(hWnd);
+
+   Gdiplus::GdiplusStartup(&gpToken, &gpsi, NULL);
+
+   LoadScenes();
 
    return TRUE;
 }

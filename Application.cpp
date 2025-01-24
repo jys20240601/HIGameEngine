@@ -1,6 +1,7 @@
 #include "Application.h"
 #include "Input.h"
 #include "TimeManager.h"
+#include "SceneManager.h"
 
 Application::Application()
 	:mHwnd(nullptr)
@@ -24,6 +25,7 @@ void Application::Initialize(HWND hWnd, UINT width, UINT height)
 	mHwnd = hWnd;
 	mHdc = GetDC(hWnd);
 
+	//더블 버퍼링
 	RECT rect = { 0, 0, width, height };
 	AdjustWindowRect(&rect, WS_OVERLAPPEDWINDOW, false);
 
@@ -39,9 +41,11 @@ void Application::Initialize(HWND hWnd, UINT width, UINT height)
 
 	HBITMAP oldbitmap = (HBITMAP)SelectObject(mBackHdc, mBackBuffer);
 	DeleteObject(oldbitmap);
-
+	
 	Input::Initialize();
 	TimeManager::Initialize();
+	SceneManager::Initialize();
+
 }
 
 void Application::Run()
@@ -55,8 +59,7 @@ void Application::Update()
 {
 	Input::Update();
 	TimeManager::Update();
-
-	mPlayer.Update();
+	SceneManager::Update();
 }
 
 void Application::LateUpdate()
@@ -66,9 +69,12 @@ void Application::LateUpdate()
 
 void Application::Render()
 {
-	Rectangle(mBackHdc, 0, 0, 1600, 900);
+	//Double Buffering
+	Rectangle(mBackHdc, -1, -1, 1601, 901);
 
-	mPlayer.Render(mBackHdc);
+	SceneManager::Render(mBackHdc);
 
+	//Double Buffering
 	BitBlt(mHdc, 0, 0, mWidth, mHeight, mBackHdc, 0, 0, SRCCOPY);
+
 }
