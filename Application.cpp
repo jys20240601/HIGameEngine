@@ -33,10 +33,10 @@ void Application::Update()
 
 void Application::LateUpdate()
 {
-
+	mPlayer.Update();
 }
 
 void Application::Render()
 {
-
+	mPlayer.Render(mHdc);
 }

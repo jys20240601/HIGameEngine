@@ -1,6 +1,7 @@
 #pragma once
 
 #include "CommonInclude.h"
+#include "GameObject.h"
 
 class Application
 {
@@ -21,4 +22,5 @@ private:
 	HWND mHwnd;
 	HDC mHdc;
 
+	GameObject mPlayer;
 };
