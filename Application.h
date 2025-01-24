@@ -10,7 +10,7 @@ public:
 	Application();
 	~Application();
 
-	void Initialize(HWND hWnd);
+	void Initialize(HWND hWnd,UINT width,UINT height);
 	void Run();
 
 	void Update();
@@ -21,6 +21,12 @@ private:
 
 	HWND mHwnd;
 	HDC mHdc;
+
+	HDC mBackHdc;
+	HBITMAP mBackBuffer;
+
+	UINT mWidth;
+	UINT mHeight;
 
 	GameObject mPlayer;
 };
